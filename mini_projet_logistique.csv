@@ -1,0 +1,201 @@
+distance_km,zone,jour_semaine,heure_depart,nb_colis,meteo,delai_prevu,delai_reel,statut
+11.86,périurbaine,lundi,après-midi,8,embouteillage,25.0,40.0,retard
+28.57,urbaine,samedi,matin,9,ensoleillé,58.0,61.0,dans les temps
+22.23,urbaine,lundi,matin,5,ensoleillé,53.0,55.0,dans les temps
+18.36,rurale,lundi,soir,3,ensoleillé,37.0,43.0,retard
+5.52,périurbaine,samedi,soir,5,ensoleillé,16.0,17.0,dans les temps
+5.52,urbaine,jeudi,soir,5,pluie,16.0,32.0,retard
+2.68,urbaine,lundi,soir,5,pluie,8.0,15.0,retard
+26.12,périurbaine,samedi,après-midi,3,embouteillage,69.0,98.0,retard
+18.43,urbaine,vendredi,après-midi,4,ensoleillé,41.0,47.0,retard
+21.53,urbaine,mercredi,soir,9,embouteillage,54.0,76.0,retard
+1.6,urbaine,mercredi,soir,9,pluie,4.0,25.0,retard
+29.13,périurbaine,lundi,matin,2,pluie,74.0,84.0,retard
+25.14,périurbaine,jeudi,après-midi,8,embouteillage,57.0,67.0,retard
+7.16,urbaine,jeudi,matin,8,pluie,18.0,32.0,retard
+6.27,périurbaine,vendredi,soir,7,ensoleillé,16.0,24.0,retard
+6.32,urbaine,lundi,après-midi,8,embouteillage,19.0,36.0,retard
+9.82,urbaine,mercredi,matin,3,ensoleillé,28.0,27.0,dans les temps
+16.22,périurbaine,jeudi,après-midi,6,ensoleillé,40.0,51.0,retard
+13.53,périurbaine,lundi,après-midi,1,embouteillage,35.0,44.0,retard
+9.45,périurbaine,jeudi,matin,7,ensoleillé,26.0,31.0,retard
+18.74,périurbaine,samedi,matin,1,embouteillage,38.0,57.0,retard
+05.05,urbaine,jeudi,après-midi,9,ensoleillé,15.0,17.0,retard
+9.47,urbaine,mercredi,après-midi,1,embouteillage,27.0,47.0,retard
+11.62,urbaine,mardi,après-midi,1,ensoleillé,29.0,19.0,dans les temps
+14.23,urbaine,vendredi,après-midi,7,embouteillage,34.0,46.0,retard
+23.77,urbaine,vendredi,soir,2,embouteillage,54.0,66.0,retard
+6.79,rurale,mercredi,après-midi,5,ensoleillé,17.0,25.0,retard
+15.91,urbaine,jeudi,après-midi,8,pluie,33.0,46.0,retard
+18.18,rurale,lundi,soir,8,embouteillage,52.0,86.0,retard
+2.35,périurbaine,jeudi,après-midi,3,ensoleillé,5.0,4.0,dans les temps
+18.62,périurbaine,mercredi,matin,7,ensoleillé,43.0,43.0,dans les temps
+5.95,urbaine,vendredi,matin,3,ensoleillé,17.0,25.0,retard
+2.89,urbaine,jeudi,après-midi,6,pluie,8.0,24.0,retard
+28.52,urbaine,vendredi,après-midi,6,pluie,65.0,85.0,retard
+29.0,urbaine,lundi,après-midi,3,pluie,65.0,84.0,retard
+24.44,périurbaine,vendredi,matin,7,ensoleillé,49.0,41.0,dans les temps
+9.83,urbaine,vendredi,matin,3,ensoleillé,26.0,29.0,retard
+3.83,urbaine,mardi,matin,8,pluie,8.0,29.0,retard
+20.84,périurbaine,mardi,matin,4,ensoleillé,53.0,49.0,dans les temps
+13.76,urbaine,samedi,après-midi,1,ensoleillé,41.0,34.0,dans les temps
+4.54,rurale,mardi,matin,4,embouteillage,10.0,35.0,retard
+15.36,rurale,vendredi,après-midi,7,pluie,44.0,52.0,retard
+2.0,rurale,mercredi,soir,4,pluie,6.0,31.0,retard
+27.37,urbaine,vendredi,matin,6,embouteillage,56.0,79.0,retard
+8.5,urbaine,mercredi,après-midi,9,pluie,25.0,30.0,retard
+20.21,rurale,mercredi,après-midi,1,embouteillage,51.0,71.0,retard
+10.04,urbaine,mardi,matin,5,ensoleillé,29.0,38.0,retard
+16.08,rurale,jeudi,après-midi,7,ensoleillé,41.0,51.0,retard
+16.85,rurale,lundi,soir,1,ensoleillé,45.0,45.0,dans les temps
+6.36,rurale,mardi,soir,4,ensoleillé,16.0,31.0,retard
+29.12,urbaine,mardi,matin,6,pluie,83.0,94.0,retard
+23.48,urbaine,jeudi,soir,2,ensoleillé,64.0,64.0,dans les temps
+28.25,rurale,lundi,après-midi,5,ensoleillé,71.0,70.0,dans les temps
+26.95,urbaine,vendredi,matin,1,ensoleillé,77.0,74.0,dans les temps
+18.34,urbaine,samedi,après-midi,6,ensoleillé,41.0,40.0,dans les temps
+27.73,urbaine,samedi,soir,6,pluie,60.0,73.0,retard
+3.57,rurale,vendredi,après-midi,4,ensoleillé,8.0,23.0,retard
+6.68,périurbaine,mardi,matin,8,pluie,16.0,23.0,retard
+2.31,urbaine,lundi,après-midi,4,ensoleillé,5.0,8.0,retard
+10.43,urbaine,mardi,matin,8,pluie,31.0,39.0,retard
+12.27,périurbaine,mercredi,matin,8,embouteillage,26.0,39.0,retard
+8.87,rurale,mardi,matin,5,ensoleillé,24.0,23.0,dans les temps
+25.03,urbaine,mardi,matin,4,embouteillage,55.0,83.0,retard
+11.35,urbaine,vendredi,matin,2,ensoleillé,33.0,34.0,dans les temps
+9.15,rurale,vendredi,matin,3,ensoleillé,27.0,40.0,retard
+16.74,périurbaine,vendredi,après-midi,3,embouteillage,41.0,58.0,retard
+05.09,périurbaine,samedi,matin,4,ensoleillé,15.0,13.0,dans les temps
+24.26,périurbaine,mercredi,matin,4,ensoleillé,49.0,47.0,dans les temps
+3.16,urbaine,vendredi,soir,5,embouteillage,9.0,23.0,retard
+29.62,urbaine,lundi,après-midi,4,ensoleillé,66.0,64.0,dans les temps
+23.4,périurbaine,samedi,après-midi,8,embouteillage,68.0,89.0,retard
+6.76,périurbaine,jeudi,matin,6,ensoleillé,14.0,10.0,dans les temps
+1.16,rurale,lundi,matin,6,embouteillage,3.0,26.0,retard
+24.65,rurale,lundi,matin,8,pluie,68.0,74.0,dans les temps
+21.5,urbaine,vendredi,matin,7,pluie,49.0,51.0,dans les temps
+22.14,urbaine,jeudi,matin,8,embouteillage,49.0,67.0,retard
+23.37,périurbaine,jeudi,matin,2,ensoleillé,49.0,44.0,dans les temps
+3.15,périurbaine,samedi,matin,9,embouteillage,7.0,19.0,retard
+11.4,périurbaine,jeudi,matin,1,ensoleillé,29.0,25.0,dans les temps
+4.36,périurbaine,mercredi,après-midi,8,ensoleillé,9.0,12.0,retard
+26.03,rurale,vendredi,matin,4,ensoleillé,62.0,71.0,retard
+19.08,urbaine,jeudi,matin,4,pluie,38.0,41.0,dans les temps
+10.6,urbaine,samedi,après-midi,5,ensoleillé,30.0,29.0,dans les temps
+2.84,urbaine,mercredi,après-midi,8,embouteillage,6.0,20.0,retard
+10.02,urbaine,mardi,matin,5,embouteillage,23.0,45.0,retard
+10.43,urbaine,mardi,après-midi,8,embouteillage,21.0,34.0,retard
+22.16,urbaine,mercredi,après-midi,1,ensoleillé,54.0,57.0,dans les temps
+19.49,urbaine,samedi,matin,9,pluie,55.0,69.0,retard
+26.73,urbaine,mercredi,soir,6,ensoleillé,64.0,68.0,dans les temps
+14.69,urbaine,vendredi,soir,3,ensoleillé,32.0,41.0,retard
+4.47,urbaine,vendredi,matin,8,ensoleillé,12.0,7.0,dans les temps
+21.68,urbaine,mardi,matin,9,ensoleillé,60.0,58.0,dans les temps
+23.06,périurbaine,jeudi,soir,6,pluie,50.0,56.0,retard
+17.28,urbaine,samedi,après-midi,7,pluie,48.0,68.0,retard
+23.36,urbaine,mardi,matin,1,ensoleillé,69.0,67.0,dans les temps
+15.32,urbaine,jeudi,matin,5,ensoleillé,33.0,34.0,dans les temps
+16.16,périurbaine,jeudi,matin,5,ensoleillé,45.0,42.0,dans les temps
+13.4,urbaine,vendredi,après-midi,4,ensoleillé,36.0,34.0,dans les temps
+1.74,périurbaine,lundi,après-midi,6,embouteillage,4.0,34.0,retard
+4.13,urbaine,lundi,matin,7,ensoleillé,8.0,11.0,retard
+1.91,urbaine,mercredi,après-midi,9,ensoleillé,4.0,9.0,retard
+19.46,urbaine,vendredi,après-midi,1,ensoleillé,56.0,55.0,dans les temps
+10.12,urbaine,jeudi,matin,6,embouteillage,30.0,51.0,retard
+15.75,périurbaine,samedi,matin,7,embouteillage,42.0,61.0,retard
+27.32,périurbaine,lundi,après-midi,3,embouteillage,67.0,87.0,retard
+8.23,rurale,jeudi,soir,8,pluie,22.0,35.0,retard
+12.9,urbaine,lundi,après-midi,5,pluie,33.0,33.0,dans les temps
+22.91,urbaine,lundi,après-midi,9,ensoleillé,55.0,60.0,dans les temps
+7.64,périurbaine,lundi,matin,5,embouteillage,16.0,38.0,retard
+3.23,urbaine,samedi,après-midi,9,embouteillage,9.0,30.0,retard
+9.4,urbaine,vendredi,après-midi,4,pluie,22.0,27.0,retard
+5.68,urbaine,samedi,matin,9,embouteillage,16.0,39.0,retard
+27.96,urbaine,mardi,matin,5,pluie,63.0,93.0,retard
+24.44,rurale,jeudi,matin,9,pluie,49.0,72.0,retard
+19.37,périurbaine,vendredi,matin,3,embouteillage,42.0,56.0,retard
+26.27,périurbaine,vendredi,matin,4,embouteillage,65.0,76.0,retard
+24.31,urbaine,vendredi,matin,9,pluie,72.0,90.0,retard
+6.41,urbaine,vendredi,matin,6,pluie,13.0,14.0,dans les temps
+26.88,urbaine,samedi,matin,2,ensoleillé,77.0,84.0,dans les temps
+16.64,urbaine,vendredi,soir,7,pluie,42.0,52.0,retard
+24.42,urbaine,mercredi,après-midi,2,ensoleillé,69.0,70.0,dans les temps
+26.99,périurbaine,jeudi,après-midi,2,pluie,62.0,73.0,retard
+10.22,périurbaine,vendredi,après-midi,1,embouteillage,29.0,41.0,retard
+4.19,urbaine,jeudi,après-midi,3,pluie,12.0,12.0,dans les temps
+7.61,rurale,mercredi,matin,6,ensoleillé,17.0,28.0,retard
+13.39,périurbaine,mercredi,après-midi,8,ensoleillé,29.0,41.0,retard
+24.72,urbaine,jeudi,après-midi,9,ensoleillé,71.0,71.0,dans les temps
+25.96,périurbaine,lundi,après-midi,7,pluie,77.0,92.0,retard
+1.2,urbaine,mardi,après-midi,4,ensoleillé,2.0,3.0,retard
+15.81,urbaine,lundi,matin,6,ensoleillé,43.0,41.0,dans les temps
+13.1,urbaine,lundi,matin,5,ensoleillé,38.0,40.0,dans les temps
+7.44,périurbaine,samedi,matin,8,embouteillage,21.0,43.0,retard
+4.48,urbaine,lundi,après-midi,1,pluie,13.0,21.0,retard
+10.79,urbaine,vendredi,après-midi,1,ensoleillé,30.0,30.0,dans les temps
+28.34,urbaine,samedi,matin,6,ensoleillé,69.0,66.0,dans les temps
+10.37,urbaine,samedi,soir,2,pluie,24.0,35.0,retard
+16.04,rurale,mercredi,après-midi,5,pluie,37.0,55.0,retard
+21.39,périurbaine,lundi,matin,1,pluie,58.0,67.0,retard
+11.55,urbaine,mercredi,matin,7,ensoleillé,32.0,30.0,dans les temps
+29.18,urbaine,jeudi,matin,1,pluie,64.0,80.0,retard
+28.91,urbaine,mardi,matin,4,ensoleillé,83.0,84.0,dans les temps
+8.3,urbaine,samedi,matin,9,embouteillage,23.0,53.0,retard
+15.42,urbaine,jeudi,matin,1,pluie,40.0,50.0,retard
+9.73,urbaine,jeudi,matin,4,ensoleillé,24.0,30.0,retard
+9.26,urbaine,vendredi,matin,6,ensoleillé,24.0,28.0,retard
+02.07,périurbaine,mardi,soir,6,pluie,4.0,15.0,retard
+18.68,périurbaine,jeudi,matin,8,embouteillage,41.0,47.0,retard
+15.58,urbaine,jeudi,après-midi,1,pluie,33.0,47.0,retard
+2.49,urbaine,mardi,après-midi,7,pluie,5.0,20.0,retard
+09.08,périurbaine,mardi,soir,1,pluie,22.0,39.0,retard
+27.34,urbaine,jeudi,matin,7,pluie,69.0,74.0,dans les temps
+7.95,rurale,mardi,matin,3,ensoleillé,16.0,17.0,dans les temps
+5.2,périurbaine,jeudi,soir,8,embouteillage,15.0,33.0,retard
+15.19,urbaine,jeudi,soir,3,ensoleillé,35.0,40.0,retard
+29.58,urbaine,vendredi,soir,1,ensoleillé,86.0,83.0,dans les temps
+08.02,périurbaine,lundi,matin,8,embouteillage,24.0,33.0,retard
+20.49,urbaine,jeudi,matin,3,ensoleillé,45.0,48.0,dans les temps
+23.09,urbaine,mercredi,après-midi,2,ensoleillé,57.0,51.0,dans les temps
+7.89,rurale,samedi,soir,1,ensoleillé,16.0,25.0,retard
+22.12,urbaine,lundi,après-midi,3,embouteillage,57.0,62.0,dans les temps
+11.67,urbaine,lundi,après-midi,2,ensoleillé,30.0,33.0,dans les temps
+19.34,périurbaine,lundi,matin,2,ensoleillé,43.0,35.0,dans les temps
+19.37,urbaine,vendredi,après-midi,6,ensoleillé,50.0,47.0,dans les temps
+16.54,urbaine,jeudi,matin,1,ensoleillé,37.0,46.0,retard
+3.62,rurale,vendredi,matin,2,ensoleillé,8.0,22.0,retard
+25.22,urbaine,jeudi,après-midi,6,ensoleillé,67.0,65.0,dans les temps
+10.3,rurale,vendredi,après-midi,3,pluie,24.0,47.0,retard
+6.41,rurale,vendredi,matin,4,ensoleillé,17.0,24.0,retard
+2.18,urbaine,samedi,matin,1,ensoleillé,5.0,1.0,dans les temps
+18.14,urbaine,mercredi,après-midi,8,ensoleillé,54.0,58.0,dans les temps
+20.65,urbaine,vendredi,matin,7,ensoleillé,44.0,50.0,retard
+1.48,urbaine,samedi,après-midi,7,pluie,4.0,22.0,retard
+15.85,urbaine,mardi,matin,3,pluie,42.0,46.0,dans les temps
+7.57,périurbaine,mercredi,après-midi,3,ensoleillé,18.0,12.0,dans les temps
+19.71,urbaine,vendredi,après-midi,2,ensoleillé,59.0,65.0,retard
+06.06,urbaine,lundi,matin,1,ensoleillé,16.0,15.0,dans les temps
+21.04,périurbaine,mardi,matin,7,embouteillage,56.0,73.0,retard
+12.22,urbaine,mardi,matin,7,pluie,34.0,43.0,retard
+28.17,périurbaine,samedi,matin,2,pluie,83.0,99.0,retard
+4.99,urbaine,mardi,soir,7,ensoleillé,15.0,19.0,retard
+10.89,urbaine,mercredi,matin,8,embouteillage,30.0,34.0,retard
+4.29,périurbaine,vendredi,soir,1,ensoleillé,12.0,11.0,dans les temps
+27.82,périurbaine,vendredi,matin,9,ensoleillé,60.0,53.0,dans les temps
+26.44,rurale,lundi,après-midi,7,ensoleillé,56.0,59.0,dans les temps
+8.48,périurbaine,samedi,après-midi,3,ensoleillé,22.0,12.0,dans les temps
+20.14,périurbaine,lundi,après-midi,8,embouteillage,41.0,57.0,retard
+24.7,urbaine,mardi,après-midi,7,embouteillage,61.0,80.0,retard
+17.1,urbaine,lundi,après-midi,8,ensoleillé,38.0,41.0,dans les temps
+16.36,périurbaine,mercredi,matin,6,pluie,38.0,43.0,retard
+08.01,périurbaine,vendredi,soir,9,embouteillage,22.0,23.0,dans les temps
+3.7,rurale,mardi,soir,5,embouteillage,11.0,21.0,retard
+27.02,urbaine,lundi,soir,3,pluie,56.0,59.0,dans les temps
+27.11,urbaine,samedi,matin,3,embouteillage,69.0,87.0,retard
+19.36,périurbaine,mercredi,après-midi,1,embouteillage,56.0,80.0,retard
+10.83,urbaine,mercredi,soir,8,pluie,23.0,35.0,retard
+11.13,rurale,lundi,matin,2,ensoleillé,31.0,38.0,retard
+22.05,rurale,vendredi,matin,3,ensoleillé,52.0,59.0,retard
+27.02,urbaine,lundi,après-midi,8,embouteillage,63.0,86.0,retard
+26.73,périurbaine,mardi,après-midi,8,ensoleillé,80.0,79.0,dans les temps
+23.62,périurbaine,lundi,soir,4,embouteillage,52.0,65.0,retard
