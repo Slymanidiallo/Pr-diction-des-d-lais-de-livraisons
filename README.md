@@ -1,15 +1,14 @@
 # Delivery Delay Prediction | Prédiction des retards de livraison
 
-> **EN:** Machine-learning project to classify a delivery as on time or delayed from logistics-related input features.  
-> **FR :** Projet de machine learning visant à estimer si une livraison sera effectuée à temps ou avec retard à partir de variables logistiques.
+> **EN:** Machine-learning project to classify a delivery as on time or delayed using logistics features available before dispatch.  
+> **FR :** Projet de machine learning qui classe une livraison comme effectuée à temps ou en retard à partir de variables logistiques disponibles avant le départ.
 
 ## 🇬🇧 English
 
 ### Overview
-The repository includes a preprocessing module, a model-training script, a prediction helper and a Streamlit interface. The training script builds a scikit-learn pipeline with preprocessing and a **Random Forest classifier**, tuning selected hyperparameters with **GridSearchCV**.
+The repository contains a preprocessing module, a Random Forest training pipeline, a prediction helper and a Streamlit interface. The model is trained with scikit-learn using a preprocessing pipeline, one-hot encoding for categorical features, median imputation for numerical features and a GridSearchCV hyperparameter search.
 
-### Application inputs
-The Streamlit form asks for:
+### Prediction inputs
 - Distance in kilometres
 - Delivery zone
 - Day of the week
@@ -18,19 +17,20 @@ The Streamlit form asks for:
 - Weather / traffic condition
 - Planned delivery time
 
-The interface displays an on-time or delayed status and a delay probability returned by the prediction helper.
+### Important target-leakage correction
+The dataset includes `delai_reel` (actual delivery time), which is only known after a delivery has taken place. The training pipeline now explicitly excludes this column, as well as the target `statut`, from model inputs. The Streamlit form no longer sends a placeholder `delai_reel` value to the predictor.
 
-### Project files
+### Files
 | File | Purpose |
 |---|---|
-| `streamlit_app.py` | User interface |
-| `train_model.py` | Pipeline training and hyperparameter search |
-| `preprocessing.py` | Feature preprocessing |
-| `predict.py` | Single-record prediction helper |
-| `mini_projet_logistique.csv` | Dataset |
+| `streamlit_app.py` | Streamlit prediction interface |
+| `train_model.py` | Model training and hyperparameter search |
+| `preprocessing.py` | Numerical and categorical preprocessing |
+| `predict.py` | Loads the saved pipeline and predicts one delivery |
+| `mini_projet_logistique.csv` | Project dataset |
 | `requirements.txt` | Python dependencies |
 
-### Setup
+### Setup and run
 ```bash
 git clone https://github.com/Slymanidiallo/Pr-diction-des-d-lais-de-livraisons.git
 cd Pr-diction-des-d-lais-de-livraisons
@@ -38,45 +38,44 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-```
 
-Before training, update the dataset/model paths in `train_model.py`: the current script contains a user-specific local directory. Then run the training script and launch the interface:
-
-```bash
 python train_model.py
 streamlit run streamlit_app.py
 ```
 
-### Reproducibility note
-The current Streamlit code passes the planned delay as a placeholder for the actual delay field. Review the training/prediction feature contract and remove target leakage before using this model for a real evaluation. No performance metric is claimed in this README.
+The training script reads the CSV from the repository root and saves the fitted pipeline to `models/model.pkl`. The application expects this model file to exist.
+
+### Evaluation caveat
+GridSearchCV uses stratified three-fold cross-validation and reports its best cross-validation F1 score. This is not a separate final test-set result. A future evaluation should reserve a held-out test set and assess class-wise precision/recall, F1, calibration and robustness on new delivery records.
 
 ## 🇫🇷 Français
 
 ### Présentation
-Le dépôt regroupe un module de prétraitement, un script d'entraînement, une fonction de prédiction et une interface Streamlit. Le script d'entraînement construit un pipeline scikit-learn combinant prétraitement et **Random Forest**, avec recherche d'hyperparamètres par **GridSearchCV**.
+Le dépôt contient un module de prétraitement, un pipeline d'entraînement Random Forest, une fonction de prédiction et une interface Streamlit. Le modèle est entraîné avec scikit-learn à l'aide d'un pipeline qui comprend le prétraitement, le one-hot encoding des variables catégorielles, l'imputation médiane des variables numériques et une recherche d'hyperparamètres par GridSearchCV.
 
-### Variables saisies dans l'application
+### Variables utilisées pour la prédiction
 - Distance en kilomètres
 - Zone de livraison
 - Jour de la semaine
 - Heure de départ
 - Nombre de colis
-- Météo ou état du trafic
+- Météo / état du trafic
 - Délai prévu
 
-L'interface affiche une classe (« dans les temps » ou « retard ») ainsi qu'une probabilité fournie par le module de prédiction.
+### Correction importante de fuite de la cible
+Le jeu de données contient la variable `delai_reel` (durée réelle de livraison), qui n'est connue qu'après la livraison. Le pipeline d'entraînement exclut désormais explicitement cette colonne ainsi que la cible `statut` des variables explicatives. Le formulaire Streamlit n'envoie plus de valeur provisoire `delai_reel` au prédicteur.
 
 ### Fichiers
 | Fichier | Rôle |
 |---|---|
-| `streamlit_app.py` | Interface utilisateur |
-| `train_model.py` | Entraînement du pipeline et recherche d'hyperparamètres |
-| `preprocessing.py` | Prétraitement des variables |
-| `predict.py` | Prédiction sur un enregistrement |
+| `streamlit_app.py` | Interface de prédiction Streamlit |
+| `train_model.py` | Entraînement et recherche d'hyperparamètres |
+| `preprocessing.py` | Prétraitement numérique et catégoriel |
+| `predict.py` | Chargement du pipeline sauvegardé et prédiction |
 | `mini_projet_logistique.csv` | Jeu de données |
 | `requirements.txt` | Dépendances Python |
 
-### Installation
+### Installation et lancement
 ```bash
 git clone https://github.com/Slymanidiallo/Pr-diction-des-d-lais-de-livraisons.git
 cd Pr-diction-des-d-lais-de-livraisons
@@ -84,14 +83,12 @@ python -m venv .venv
 # Windows : .venv\Scripts\activate
 # macOS/Linux : source .venv/bin/activate
 pip install -r requirements.txt
-```
 
-Avant l'entraînement, corrigez les chemins de données et de sortie dans `train_model.py`, car le script contient actuellement un chemin local propre à un poste. Lancez ensuite :
-
-```bash
 python train_model.py
 streamlit run streamlit_app.py
 ```
 
-### Point de vigilance
-L'interface transmet actuellement le délai prévu comme valeur provisoire du délai réel. Il faut vérifier le contrat des variables entre entraînement et prédiction et éliminer toute fuite de la variable cible avant une évaluation fiable. Aucune métrique de performance n'est annoncée ici.
+Le script d'entraînement lit le CSV depuis la racine du dépôt et sauvegarde le pipeline dans `models/model.pkl`. L'application attend la présence de ce fichier.
+
+### Précaution sur l'évaluation
+GridSearchCV utilise une validation croisée stratifiée en trois plis et affiche le meilleur score F1 de validation croisée. Ce résultat ne constitue pas une performance mesurée sur un jeu de test indépendant. Une prochaine évaluation devra réserver un jeu de test final et examiner la précision, le rappel, le F1-score par classe, la calibration et la robustesse sur de nouvelles livraisons.
